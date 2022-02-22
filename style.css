@@ -1,0 +1,47 @@
+.button{
+    border-radius: 100%;
+    background-color: red;
+    height: 300px;
+    width: 300px;
+    border: 20px solid darkred;
+    outline: 10px solid lightcoral;
+    outline-offset: -20px;
+}
+
+img{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+#sam{
+    align-self: center;
+}
+
+.button:hover{
+    cursor: pointer;
+}
+
+.samContainer{
+    background-color: white;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
