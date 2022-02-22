@@ -12,4 +12,5 @@ const photo = document.querySelector('#sam');
 const button = document.querySelector('.button');
 button.addEventListener('click', photoSwap)
 
+window.onload(photoSwap());
 

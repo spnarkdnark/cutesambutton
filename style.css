@@ -4,7 +4,6 @@
     height: 300px;
     width: 300px;
     border: 20px solid darkred;
-    outline-offset: -20px;
     color: white;
 
     display: flex;
